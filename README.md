@@ -1,4 +1,5 @@
-# calculator.js
+# calculator.js 
+Simple modern calculator made with JavaScript
 
 # Screenshot
 
