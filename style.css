@@ -1,0 +1,103 @@
+body{
+    font-family: 'Open Sans',sans-serif;
+    background-color: rgb(10, 10, 10);
+}
+
+#title{
+    color: white;
+    width: 50%;
+    padding-top: 50px;
+    font-size: 24px;
+    text-align: center;
+    margin: auto;
+}
+
+#result{
+    height: 120px;
+}
+
+#keyboard{
+    height: 400px;
+    width: 320px;
+    padding: 2px;
+}
+
+.operator, .number{
+    width: 77px;
+    height: 77px;
+    margin: 1.2px 1px;
+    float: left;
+    color: white;
+    font-size: 18px;
+    border-radius: 2px;
+    border-width: 0px;
+}
+
+.number{
+    background-color: rgb(6, 6, 6);
+}
+
+.operator{
+    background-color: rgb(19, 19, 19);
+}
+
+#history{
+    text-align: right;
+    font-size: 18px;
+    color: rgb(187, 187, 187);
+    height: 20px;
+    margin: 0 10px;
+    padding-top: 10px;
+}
+
+#output{
+    color: white;
+    text-align: right;
+    font-size: 32px;
+    margin: 0 10px;
+}
+
+#equal{
+    background-color: rgb(36, 138, 255);
+    border-radius: 2px 2px 8px 2px;
+}
+
+#invert{
+    border-radius: 2px 2px 2px 8px;
+}
+
+#calculator{
+    width: 320px;
+    height: 520px;
+    background-color: rgb(32, 32, 32);
+    border-radius: 8px;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+}
+
+#clear{
+    background-color: rgb(255, 73, 73);
+}
+
+#clear:hover{
+    background-color: rgb(255, 108, 108);
+}
+
+.operator:focus, .number:focus, .null:focus{
+    outline: 0px;
+}
+
+.operator:hover{
+    background-color: rgb(25, 25, 25);
+    cursor: pointer;
+}
+
+.number:hover{
+    background-color: rgb(15, 15, 15);
+    cursor: pointer;
+}
+
+#equal:hover{
+    background-color: rgb(71, 157, 255);
+}
